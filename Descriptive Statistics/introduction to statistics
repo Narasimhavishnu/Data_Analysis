@@ -1,0 +1,100 @@
+What is Statistical Analysis?
+
+Practice or science of collecting and analyzing data in large quantities
+Statistics are the results of data analysis-its interpretation and presentation
+Statistics are obtained from raw data and provide information
+
+###
+Benefits of Statistical Analysis in Data Science
+
+Statistical knowledge helps you to:
+
+← →
+use  the proper methods to collect the data and employ the correct analyses
+
+Conduct research and present the result effectively
+
+Find structure in data and make relevant predictions
+
+Apply various statistical methods to Bald Machine Learning models
+
+
+###
+Statistical Analysis Divisions
+
+Statistics provides an insight into data through two categories as shown below :-
+
+Descriptive Statistics :- Uses the data to provide descriptions of the population
+
+Descriptive Statistical Analysis Example :- Let's say you want statistical insight on exam marks of 100 student
+
+Descriptive Statistics will help you describe the data and emerging patterns on these (100 students which in this case is called population
+
+This type of statistics will not allow you to make conclusions beyond the data you have analyzed (100Population
+
+Descriptive Statistics is the branch of Statistics that involves organizing, displaying, and describing data
+
+Example of Descriptive Statistic
+It deals with the presentation of numencal fact or data is other tabular or graphical form For Example A student's grade point average
+
+(GPA) provides a good understanding and  analyzing his overall performance
+
+measures used in descriptive statistics :- 
+Measures of Central Tendency ;- The data values for most numerical variables tend to group around a specific value Measures of Central Tendency 
+describe to what extent this pattern holds for a specific variable
+
+
+The three commonly used measures are shown below : MEAN :- Represents the sum of all values in a dataset divided by the total number of the values
+The mean of a set of numbers X,, X2 X3.....X, is
+
+defined as,
+overline x = SUM(Xi)/n
+
+import pandas as pd import numpy as np
+x=[2,4,6,7,20,10,22
+y=np. array(x)
+print ("Mean is ',y.mean ())
+
+
+MEDIAN : - Represents the middle value in a dataset that is arranged in ascending order
+
+import pandas as pd
+import numpy as np
+ap=[12,4,4,7,20,10,221]
+print ("Median is,ap.median (y))
+
+MODE :- Defines the most frequently occurring value in a dataset
+
+from statistics import mode
+print("Mode is:", mode([1, 2, 3, 3, 3, 3, 41,31])
+ mode is 3
+ In some cases, a dataset may contain multiple modes while some datasets may not have any mode at all
+
+Measures of Dispersion
+
+Measures of Position
+
+Inferential Statistics :- Makes inferences and predictions about a population based on a sample
+Inferential Statistical Analysis Example :- Let's say you want statistical insight on exam marks of all students in the whole of the US
+
+Inferential Statistics analyzes a sample of the population and makes inferences about the predictions for the population
+
+
+###
+
+What is Population?
+
+A collection or set of individuals or objects or events whose properties are to be analyzed
+
+POPULATION MEAN = μ
+
+###
+What is a Sample?
+
+A subset of a population is called "Sample. A well-chosen sample will contain most of the information about a population parameter
+
+population -> random part -> sample
+
+sample mean - X -line over he x
+
+
