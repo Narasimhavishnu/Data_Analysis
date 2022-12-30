@@ -39,10 +39,12 @@ It deals with the presentation of numencal fact or data is other tabular or grap
 
 (GPA) provides a good understanding and  analyzing his overall performance
 
-measures used in descriptive statistics :- 
+
+###
+measures used in descriptive statistics :-
+###
 Measures of Central Tendency ;- The data values for most numerical variables tend to group around a specific value Measures of Central Tendency 
 describe to what extent this pattern holds for a specific variable
-
 
 The three commonly used measures are shown below : MEAN :- Represents the sum of all values in a dataset divided by the total number of the values
 The mean of a set of numbers X,, X2 X3.....X, is
@@ -69,10 +71,64 @@ from statistics import mode
 print("Mode is:", mode([1, 2, 3, 3, 3, 3, 41,31])
  mode is 3
  In some cases, a dataset may contain multiple modes while some datasets may not have any mode at all
+###
 
-Measures of Dispersion
+Measures of Dispersion:- A Measure of Dispersion, or measure of spread, is used to describe the variability in a sample or population and how well the data is
+distributed.
+It is usually used in conjunction with a measure of central tendency mean or median, to provide an overall description of a set of data
+
+types in Measure of dipersion :-
+RANGE:-range is the intervel between the highest and lowest points (max-min)
+
+INERQURTAIL:-The IQR is a measure of variability based on dividing a data set into quartiles
+Quartiles divide a rank-ordered data set into four equal parts
+The values that divide each part are called the first, second, and third quartiles and they are denoted by QI ,Q2, and Q3 respectively
+The interquartile range is calculated as IQR = Q3 - Q1
+
+VARIANCE :-Variance is a measurement of how far each number in the set is from the mean
+Variance is calculated by taking the differences between each number in the ser and the mean, squaring the
+differences (to make them positive), and dividing the sum of the squares by the no of values in the set
+
+STANDARD DEVIATTION :-Standard Deviation is a measure of dispersion of a set of data from its mean
+If the data points are far from the mean, there is a higher deviation within the data set
+Standard deviation is calculated as the square root of variance by determining the variation between each
+data point relative to the mean
+
+data [2,4,6,7,20,10,22]
+print (np.ptp (data)) /range
+print (np.var (data)) /variance
+
+
+###
+
+
+Measures of Position : -• A Measure of Position is a method by which the position that a data value has within a given data set can be identified
+
+it describes ways to figure out where a data point or set falls using three methods as shown below.
 
 Measures of Position
+
+Percentiles  :-Percentiles divide a set of data into 100 equal parts
+There are 99 percentile values: P1, P2, P3..
+
+Answer
+
+Your test score put you in the 92nd percentile. What percentage of students had a better
+
+score than yours?
+
+8% of students had a better score than yours
+
+Quartiles :-Quartiles divide a rank-ordered data set into four equal parts
+The values that divide each part are called the first, second, and third quartiles, and they are denoted by Q1,Q2 and Q3 respectively
+
+
+Standard Scores: -standard score indicates how many standard deviations an element is from the mean
+
+Standard Scores are data values that have been given a common standard
+
+A standard score is also known as a z-score The standard score is calculated as shown below:
+
 
 Inferential Statistics :- Makes inferences and predictions about a population based on a sample
 Inferential Statistical Analysis Example :- Let's say you want statistical insight on exam marks of all students in the whole of the US
