@@ -1,0 +1,85 @@
+Data ->processing ->information
+introduction to data type ->categorical data,Numerical Data
+Categorical ->Categorical data which can be called also as attributes. numerical data is classified into one of several categories such as hair colour locality or other attributes of population attributes form is also called as  categorical data
+				types of categorical -> nominal,ordinal
+				nominal ->One of the example of  nominal data is gender classification
+
+				/*
+
+
+				#nominal Level data
+				ans1-input("Would you like to go for shopping? if yes then type Y / y else N/n: ")
+				ans2-input("Do you love talking on any topic? if yes then type Y/ y else N/n: ")
+				if(((ans1='Y')|(ans1=='y'))&((ans2='Y')|(ans2='y'))):
+					print("Welcome to girls club")
+				else: 
+					print("Sorry boys, you can not join the club")
+
+				Would you like to go for shopping?
+				if yes then type Y y
+				else N/n: N 
+				Do you love talking on any topic? 
+				if yes then type Y / y 
+				else N/n: Y
+				Sorry boys, you can not join the club
+
+				*/
+				ordinal data -> Data with an ordered series such as 
+
+				Customer ID Rating scale
+				101         Strong agree
+				302          disagree
+				013           neutral
+				001         Strong disagree
+				100             agree
+
+				/*
+
+				#Ordinal Level data
+
+				marks=int(input("Enter your percentage: ")) 
+				if(marks<-40):
+					print("Fail")
+				elif((marks>40)&(marks<-50)):
+					print("Second Class")
+				elif((marks>50)&(marks<-60)):
+					print("First Class")
+				elif (marks>-60):
+					print("Congratulations!! You got distinction")
+
+				Enter your percentage: 65
+				output -
+				Congratulations!! You got distinction
+
+				Grades are given to students according to their score in the exam
+				*/
+
+
+Numerical Data ->Data measured on a numerical scale (distance traveled to college, the number of children in a family, etc.)
+types in numerical data -> 
+
+Discrete->  Children in a Family, number of eggs in a basket etc.Data for which only a finite number of distinct values are possible
+
+For Example - The size of the shoe of a person can take values such as 7.5, 6, dr 9 but there is only a finite number of possible values as shown below:
+
+Name of Participant in a Shoe Survey    Shoe Size (US)
+
+Carol Tony                                 7
+
+Steve																			 6
+
+Nick                                       10
+
+Natasha																			5
+
+Continuous ->Sales of different departments in a quarter.Data which can be measured on a continuous scale and can have almost any numeric value in real numbers
+
+In contrast to discrete, continuous data can take an infinite number of possible values such as a person's weight
+
+or the price of a product as shown below:
+
+Patient ID    Weight of Patient (Kg)
+
+12 								86.5
+13								76
+10								15
