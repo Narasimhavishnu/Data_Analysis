@@ -1,0 +1,34 @@
+Inferential Statistics
+
+Statistical inference is the process of using data analysis to deduce properties of an underlying probability distribution
+ Inferential Statistics is one of the two main branches of Statistics
+Population
+Sample
+Inferennal statistics use a random sample of  data taken from a population to describe and make inferences about the population inferential statistics are 
+valuable when Examination of each member of an entire population is not convenient or possible
+
+Parameter Space -The set of all admissible values of the parameter is called parameter space
+
+Sample Space-The set of all samples of same size that can be drawn from a population is called sample space
+
+Sampling Distributions - The distribution of the values of a statistic for different samples of same size is called its sampling distribution
+
+standard error (SE) - The standard deviation of the sampling distribution of a statistic is called its Standard Error
+Standard Error of Means
+
+• Single Sample Mean:
+Let a random sample of size n be drawn from a population with mean and standard deviation o Then, the sampling distribution
+of the simple mean & has the following mean and SE:
+
+
+Difference of Sample Means:
+Let a random sample of size 7, be drawn from a population with mean, and standard deviation Similarly, a random sample of size n be drawn from a population with mean 
+and standard deviation o Then, the mean and SE of the difference of sample means, 
+
+Standard Error of Proportions
+Single Sample Proportion:
+Let a random sample of size n be drawn from a population with a population proportion P Then, the sample proportion p has the following mean and SE
+
+Difference of Sample Proportions:
+Let a random sample of size 1, be drawn from a population with proportion P Similarly, a random sample of size n be drawn from a population with proportion P Then,
+the mean and SE of the difference of sample means p, and pare
